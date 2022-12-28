@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--BGCOLOR);
+  color: var(--COLOR);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0.67em;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0.67em;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+a:-moz-any-link {
+  text-decoration: none;
+}
+
+a:any-link,
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --BGCOLOR: hsl(0, 0%, 11%);
+  --COLOR: hsl(0, 0%, 100%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 40px;
+}
+.grid__main, .grid__sidebar {
+  padding: 40px;
+}
+.grid__main {
+  background-color: hsl(240deg, 99%, 33%);
+}
+.grid__sidebar {
+  background-color: hsl(300deg, 100%, 30%);
+}/*# sourceMappingURL=style.css.map */
