@@ -10,7 +10,12 @@ h1 {
 h2 {
     font-size: clamp(1.375rem, 0.875rem + 1.5vw, 2.25rem); /* clamp(22px, 14px + 1.5vw, 36px); */
 }
+
+p {
+    font-size: 1rem; /* 16px */
+}
 ```
 
 **Note:**
 - **1vw = 1%** of the device width. So on a mobile device (_375px_), `1vw = 3.75px`.
+- The above example assumes the **font-size** to be set to 100% in the `html` tag.
