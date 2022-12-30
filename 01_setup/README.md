@@ -8,7 +8,7 @@
 
 3. Press `ctrl`+`shift`+`p` to open the command palette and type `Open User Settings (JSON)`
 
-4. At the end of the JSON file, type `"liveSassCompile.settings.formats"` and the following will be added automatically:
+4. At the end of the JSON file, type `"liveSassCompile.settings.formats"` and make sure the automatically added settings coincide with the following (_modify if necessary_):
    ```json
     "liveSassCompile.settings.formats": [
       {
