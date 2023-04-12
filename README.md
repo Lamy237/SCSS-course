@@ -29,5 +29,6 @@
 
 
 ## 🎓 Aknowledgements
+- 🔗 [Sass Guidelines: Architecture](https://sass-guidelin.es/#architecture)
 - 🔗 [Sass: Documentation](https://sass-lang.com/documentation/)
 - 🚀 [Youtube: coder coder](https://www.youtube.com/@TheCoderCoder)
